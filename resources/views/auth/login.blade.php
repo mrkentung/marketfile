@@ -38,7 +38,21 @@
 
                         <div class="field">
                             <p class="control">
+                                <label for="remember" class="checkout">
+                                    <input id="remember" type="checkbox" name="remember">
+                                    Remember me
+                                </label>
+                            </p>
+                        </div>
+
+                        <div class="field is-grouped">
+                            <p class="control">
                                 <button class="button is-primary">Submit</button>
+                            </p>
+                            <p class="control">
+                                <a href="{{ route('password.request') }}">
+                                    Forgotten your password ?
+                                </a>
                             </p>
                         </div>
 
